@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive form</title>
+    <link rel="stylesheet" href="/responsiveForm/responsiveForm.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-img">
+            <img src="/responsiveForm/png" alt="logo-image">
+        </div>
+        <div class="heading-content">
+            <div class="main-heading">
+                <h1>Employee Satisfaction</h1>
+            </div>
+            <div class="heading-para">
+                <p>Help us improve your experience in this company</p>
+            </div>
+        </div>
+
+        <div class="name-section">
+            <div class="name-label">
+                <span>Name </span>
+            </div>
+            <div class="name-input">
+                <div class="first-name">
+                    <input type="text" name="firstName" id="first-name">
+                    <label for="first-name">First</label>
+                </div>
+                <div class="last-name">
+                    <input type="text" name="lastName" id="last-name">
+                    <label for="last-name">Last</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="id-section">
+            <div class="id-label">
+                <span>Employee ID</span>
+            </div>
+            <div class="id-input">
+                <input type="text" id="emp-id" name="empId">
+            </div>
+        </div>
+
+        <div class="supervisor-rating">
+            <div class="rating-label">
+                <span>
+                    How would you rate your supervisor's attitude towards you and the rest of the team?
+                </span>
+            </div>
+            <div class="heart-wrapper">
+                <div class="heart-rating">
+                    <input type="radio" id="heart-1" name="sup-rating">
+                    <label for="heart-1"></label>
+                    <input type="radio" id="heart-2" name="sup-rating">
+                    <label for="heart-2"></label>
+                    <input type="radio" id="heart-3" name="sup-rating">
+                    <label for="heart-3"></label>
+                    <input type="radio" id="heart-4" name="sup-rating">
+                    <label for="heart-4"></label>
+                    <input type="radio" id="heart-5" name="sup-rating">
+                    <label for="heart-5"></label>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="hr-rating">
+            <div class="rating-label">
+                <span>
+                    How would you rate your HR's attitude?
+                </span>
+            </div>
+            <div class="star-rating">
+                <input type="radio" id="star-1" name="hr-rating">
+                <label for="star-1"></label>
+                <input type="radio" id="star-2" name="hr-rating">
+                <label for="star-2"></label>
+                <input type="radio" id="star-3" name="hr-rating">
+                <label for="star-3"></label>
+                <input type="radio" id="star-4" name="hr-rating">
+                <label for="star-4"></label>
+                <input type="radio" id="star-5" name="hr-rating">
+                <label for="star-5"></label>
+            </div>
+        </div>
+
+        <div class="dropdown-section">
+            <div class="dropdown-label">
+                <span>
+                    How satisfied are you with your team?
+                </span>
+            </div>
+            <div class="dropdown-input">
+                <select name="satisfaction" id="satisfaction">
+                    <option value="very-poor">very Poor</option>
+                    <option value="poor">Poor</option>
+                    <option value="neutral">Neutral</option>
+                    <option value="good">Good</option>
+                    <option value="very-good">Very Good</option>
+                    <option value="excellent">Excellent</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="team-reviews">
+            <div class="review-label">
+                <span>
+                    Are your team mates helpful to each other?
+                </span>
+            </div>
+            <div class="review-radio">
+                <label for="yes"><input type="radio" id="yes" name="reviews">Yes-totally</label>
+                <label for="a-bit"><input type="radio" id="a-bit" name="reviews">A bit</label>
+                <label for="no"><input type="radio" name="reviews" id="no">No way</label>
+            </div>
+        </div>
+
+        <div class="opinion">
+            <div class="opinion-label">
+                <span>
+                    Do you have anything else you'd like us to know?
+                </span>
+            </div>
+            <div class="opinion-input">
+                <textarea name="opinion" id="my-opinion" cols="30" rows="3"></textarea>
+            </div>
+        </div>
+
+        <div class="button">
+            <button>Submit</button>
+        </div>
+
+    </div>
+</body>
+</html>
